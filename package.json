@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-antdv-layer",
+  "type": "module",
+  "private": false,
+  "version": "0.1.0",
+  "main": "nuxt.config.ts",
+  "author": "Alex Sun",
+  "license": "MIT",
+  "keywords": [
+    "nuxt",
+    "nuxt3",
+    "antd",
+    "ant design",
+    "ant design vue",
+    "nuxt-layer"
+  ],
+  "scripts": {
+    "build": "nuxt build .demo",
+    "dev": "nuxt dev .demo",
+    "generate": "nuxt generate .demo",
+    "preview": "nuxt preview .demo",
+    "postinstall": "nuxt prepare .demo"
+  },
+  "devDependencies": {
+    "@ant-design-vue/nuxt": "^1.4.1",
+    "ant-design-vue": "^4.1.2",
+    "@types/node": "^20.11.27",
+    "nuxt": "^3.10.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  }
+}
